@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  min-height: 100vh;
+  background: url('./img/5.jpg') center/cover no-repeat;
+}
+
+.app.warm {
+  min-height: 100vh;
+  background: url('./img/1.jpg') center/cover no-repeat;
+  opacity: 1;
+  background-color: black;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  
+}
+
+.search-box input {
+  background-color: whitesmoke;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 5vh;
+  width: 30vh;
+  font-size: 2rem;
+}
+
+.weather-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tempreature-box {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.box {
+  height: 20vh;
+  width: 20vh;
+   margin-top: 5vh;
+   margin-bottom: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2rem;
+  background-color: whitesmoke;
+  opacity: 0.6;
+  font-weight: bold;
+}
+
+.type {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
